@@ -2,8 +2,8 @@ API Restfull - WEB 2
 
 - En esta API se podra consultar un catalogo de productos, en el cual está dirigido a ecommerce de venta de indumentaria. 
 
-- Miembro B:
-- Miembro A: 
+- Miembro B: Candela Schneider.
+- Miembro A: Josefina Cano.
 
 (COMO CONSUMIR/USAR LA API:)
 
