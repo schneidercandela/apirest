@@ -2,9 +2,6 @@ API Restfull - WEB 2
 
 - En esta API se podra consultar un catalogo de productos, en el cual está dirigido a ecommerce de venta de indumentaria. 
 
-- Miembro B: Candela Schneider.
-- Miembro A: Josefina Cano.
-
 (COMO CONSUMIR/USAR LA API:)
 
 - Productos:
@@ -15,13 +12,13 @@ API Restfull - WEB 2
 - Producto por ID: GET -> - Todos los productos: GET -> http://localhost/web2/ecommerce_api/api/productos/:id 
 (Si existe el producto devuelve el mismo, y si no, un error con un mensaje que el id especificado no existe)
 
-- ( MIEMBRO A - Ordenado por cualquier campo (opcional)) - Listar coleccion de productos por precio de manera ASCENDENTE: GET -> 
+Listar coleccion de productos por precio de manera ASCENDENTE: GET -> 
 
 http://localhost/web2/ecommerce_api/api/productos?sort=price&order=asc
 
 (Ordena los productos con precio de forma ascendete)
 
-- (MIEMBRO B - Filtado (opcional)) - Filtrado por oferta: GET -> http://localhost/web2/ecommerce_api/api/productos?offer=1
+ Filtrado por oferta: GET -> http://localhost/web2/ecommerce_api/api/productos?offer=1
 (Si hay productos en oferta, los trae, si no da un mensaje de que no hay productos en oferta)
 
 Oferta es el valor: 1 
